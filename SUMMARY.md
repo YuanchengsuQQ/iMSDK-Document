@@ -10,7 +10,7 @@
   * [4.2 设置开发环境](iOS/SetupEnv.md)
   * [4.3 快速集成指南](iOS/QuickStart.md)
 * [4. Unity](Unity/README.md)
-   * [4.1 下载及使用](Unity/DownloadAndPack.md)
+   * [4.1 下载及使用](Unity/Download.md)
    * [4.2 设置开发环境](Unity/SetupEnv.md)
    * [4.3 快速集成指南](Unity/QuickStart.md)
 * [
