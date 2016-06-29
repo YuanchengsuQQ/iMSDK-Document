@@ -1,6 +1,5 @@
 <!-- toc -->
 # 目录
-
 * [介绍](README.md)
    * [支持渠道一览](Channel.md)
    * [错误信息列表](Error.md)
