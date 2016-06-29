@@ -13,5 +13,5 @@
     * [2.6.2 分享模块](Unity/Module/Share.md)
     * [2.6.3 好友模块](Unity/Module/Friend.md)
   * [2.6 渠道配置说明](Unity/README.md)
-    * [Facebook](Unity/Channel/Facebook.md)
+    * [2.6.1 Facebook](Unity/Channel/Facebook.md)
 
