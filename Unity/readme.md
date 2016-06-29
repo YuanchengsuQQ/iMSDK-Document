@@ -5,10 +5,6 @@
 
 iMSDK Unity SDK 采用 C# 语言进行开发，并以源码的形式提供，并调用Android和iOS Native代码，实现Unity在底层的调用。
 
-## 基础知识
-
-
-
 ## 渠道支持列表
 
 
