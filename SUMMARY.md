@@ -6,7 +6,7 @@
   * [4.2 设置开发环境](Android/SetupEnv.md)
   * [4.3 快速集成指南](Android/QuickStart.md)
 * [3. iOS](iOS/README.md)
-  * [4.1 下载及使用](iOS/DowloadAndFileStruct.md)
+  * [4.1 下载及使用](iOS/Dowload.md)
   * [4.2 设置开发环境](iOS/SetupEnv.md)
   * [4.3 快速集成指南](iOS/QuickStart.md)
 * [4. Unity](Unity/README.md)
