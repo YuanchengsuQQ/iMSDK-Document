@@ -5,7 +5,8 @@
         "-advanced-emoji",
         "atoc",
         "sectionx",
-        "include-codeblock"
+        "include-codeblock",
+        "header"
     ],
     "pluginsConfig": {}
 }
