@@ -6,8 +6,6 @@
         "atoc",
         "sectionx",
         "include-codeblock",
-        "header",
-        "page-footer",
         "layout"
     ],
     "pluginsConfig": {
