@@ -23,6 +23,8 @@
 
 4. 等待完成后，会在目录中生成imsdk.unitypackage文件
 
+  ![生成Unity插件包](Images/4_1_unity_download_create_package_success.jpg)
+
 5. 双击生成的文件unitypackage，导入Unity工程即可
 
 > 如果打包过程中遇到任何问题，请联系RTX：yuanchengsu
