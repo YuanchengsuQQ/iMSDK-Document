@@ -4,7 +4,7 @@
 * [2. Android](Android/README.md)
    * [2.1 下载及使用](Android/dowload.md)
    * [2.2 设置开发环境](Android/setupenv.md)
-   * [2.3 快速集成指南](Android/QuickStart.md)
+   * [2.3 快速集成指南](Android/quickstart.md)
 * [3. iOS](iOS/README.md)
    * [3.1 下载及使用](iOS/Dowload.md)
    * [3.2 设置开发环境](iOS/SetupEnv.md)
