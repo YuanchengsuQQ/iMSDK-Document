@@ -5,9 +5,9 @@
 
 ## 支持平台列表
 
-| 平台| 语言 | 功能列表 |
+| 平台| 语言 |
 | -- | -- | -- | -- |
-| [Android](Android/Android.md) | Java | [登录(Login)](Android/Login.md) 、[分享(Share)](Android/Share.md)
+| [Android](Android/Android.md) | Java |
 | [iOS](iOS/iOS.md) | C++ (C98、C11) |
 | [Unity](Unity/Unity.md) | C# |
 | [类 Cocos C++ 引擎](Cpp/Cpp.md) | C++ |
@@ -20,6 +20,7 @@
 | [Facebook](https://developers.facebook.com) |  |
 | [GooglePlay](https://play.google.com/apps/publish) |  |
 | [WeChat](http://dev.wechat.com) |  |
+| 
 
 ## 
 
