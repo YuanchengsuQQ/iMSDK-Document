@@ -1,6 +1,6 @@
 # Summary
 
-* [1. iMSDK](README.md)
+* [1. iMSDK介绍](README.md)
    * [1.1 基础准备](Pre/setup.md)
    * [1.2 架构介绍](Pre/ach.md)
    * [1.3 联系我们](Pre/contact.md)
