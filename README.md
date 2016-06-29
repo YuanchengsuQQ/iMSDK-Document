@@ -17,9 +17,9 @@
 
 | 平台 |  |
 | -- | -- |
-| Android | [Androd 渠道支持列表](AndroidChannelList.md) |
+| Android | [Android 渠道支持列表](AndroidChannelList.md) |
 | iOS | [iOS 渠道支持列表](iOSChannelList.md) |
-| Unity | [iOS 渠道支持列表](UnityChannelList.md)  |
+| Unity | [iOS 渠道支持列表](UnityChannelList.md) |
 
 ## 业务支持
 
