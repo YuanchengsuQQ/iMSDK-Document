@@ -1,10 +1,9 @@
-
-# 目录
+# Summary
 
 * [1. iMSDK](README.md)
-  * [1.1 基础准备](Pre/Setup.md)
-  * [1.2 架构介绍](Pre/Ach.md)
-  * [1.3 联系我们](Pre/Contact.md)
+   * [1.1 基础准备](Pre/setup.md)
+   * [1.2 架构介绍](Pre/Ach.md)
+   * [1.3 联系我们](Pre/Contact.md)
 * [2. Android](Android/README.md)
    * [2.1 下载及使用](Android/dowload.md)
    * [2.2 设置开发环境](Android/setupenv.md)
@@ -25,4 +24,4 @@
    * [6.1 Facebook平台设置](Channel/facebook.md)
    * [6.2 WeChat平台设置](Channel/wechat.md)
 * [7. iMSDK后台]
-  * 
+
