@@ -14,6 +14,3 @@
 | 功能 | 渠道列表 |
 | -- | -- | 
 | 登录 | Facebook、GooglePlay、WeChat（微信）、Guest（iMSDK游客） |
-
-
-## iOS 渠道支持
