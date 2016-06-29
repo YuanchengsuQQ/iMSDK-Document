@@ -2,15 +2,15 @@
 
 * [1. 介绍](README.md)
 * [2. Android](Android/README.md)
-  * [4.1 下载及目录结构](Android/DowloadAndFileStruct.md)
+  * [4.1 下载及使用](Android/DowloadAndFileStruct.md)
   * [4.2 设置开发环境](Android/SetupEnv.md)
   * [4.3 快速集成指南](Android/QuickStart.md)
 * [3. iOS](iOS/README.md)
-  * [4.1 下载及目录结构](iOS/DowloadAndFileStruct.md)
+  * [4.1 下载及使用](iOS/DowloadAndFileStruct.md)
   * [4.2 设置开发环境](iOS/SetupEnv.md)
   * [4.3 快速集成指南](iOS/QuickStart.md)
 * [4. Unity](Unity/README.md)
-   * [4.1 下载及打包](Unity/DownloadAndPack.md)
+   * [4.1 下载及使用](Unity/DownloadAndPack.md)
    * [4.2 设置开发环境](Unity/SetupEnv.md)
    * [4.3 快速集成指南](Unity/QuickStart.md)
 * [
