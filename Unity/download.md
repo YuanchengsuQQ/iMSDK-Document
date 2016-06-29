@@ -9,6 +9,8 @@
 
 1. 解压下载后的zip包，进入iMSDK_Android_V?/iMSDK_Unity3D_V?.?.?目录
 
+  
+
 2. 执行打包脚本
 
   ```shell
