@@ -7,10 +7,10 @@
 
 | 平台| 语言 |
 | -- | -- | -- | -- |
-| [Android](Android/Android.md) | Java |
-| [iOS](iOS/iOS.md) | C++ (C98、C11) |
-| [Unity](Unity/Unity.md) | C# |
-| [类 Cocos C++ 引擎](Cpp/Cpp.md) | C++ |
+| [Android](Android/README.md) | Java |
+| [iOS](iOS/README.md) | C++ (C98、C11) |
+| [Unity](Unity/README.md) | C# |
+| [类 Cocos C++ 引擎](Cpp/README.md) | C++ |
 
 ## 支持渠道列表
 
