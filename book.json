@@ -9,5 +9,9 @@
         "header",
         "page-footer"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+      "layout": {
+        "headerPath" : "layouts/header.html"
+      }
+    }
 }
