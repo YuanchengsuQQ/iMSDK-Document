@@ -30,10 +30,10 @@
 
   可以根据对应的平台指引文档进行开发，快速入口：
   
-  * [Android 快速开发指引](Android/quickstart.md)
-  * [iOS 快速开发指引](iOS/quickstart.md)
-  * [Unity 快速开发指引](Unity/quickstart.md)
-  * [C++ 快速开发指引](Cpp/quickstart.md)
+  * [Android 开发指引](Android/README.md)
+  * [iOS 开发指引](iOS/README.md)
+  * [Unity 开发指引](Unity/README.md)
+  * [C++ 开发指引](Cpp/README.md)
 
 ## 联系我们
 
