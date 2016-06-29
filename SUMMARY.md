@@ -1,9 +1,9 @@
 # 目录
 
-* [介绍](README.md)
-  * [支持渠道一览](Channel.md)
-  * [错误信息列表](Error.md)
-  * [常见问题列表](FAQ.md)
+* [1. 介绍](README.md)
+  * [1.1 支持渠道一览](Channel.md)
+  * [1.2 错误信息列表](Error.md)
+  * [1.3 常见问题列表](FAQ.md)
 * [Unity](Unity/README.md)
   * [下载及打包](Unity/DownloadAndPack.md)
   * [设置开发环境](Unity/SetupEnv.md)
