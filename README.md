@@ -5,8 +5,6 @@
 
 ## 支持功能及渠道列表
 
-| 功能 | 支持渠道 | 
-
 {% exercise %}
 Define a variable `x` equal to 10.
 {% initial %}
