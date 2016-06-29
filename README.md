@@ -13,11 +13,16 @@
 | [类 Cocos C++ 引擎](Cpp/Cpp.md) | C++ |
 
 
-## 支持功能列表
+## 渠道功能列表
 
 | 渠道 | 功能 | 支持平台 |
 | -- | -- | -- |
 | [Facebook](https://developers.facebook.com) |  |
+| [GooglePlay](https://play.google.com/apps/publish) |  |
+
+## 
+
+
 
 
 
