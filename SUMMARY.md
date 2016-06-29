@@ -7,7 +7,7 @@
 * [2. Unity](Unity/README.md)
   * [2.2 下载及打包](Unity/DownloadAndPack.md)
   * [2.3 设置开发环境](Unity/SetupEnv.md)
-  * [快速集成示例](Unity/QuickStart.md)
+  * [2.4 快速集成示例](Unity/QuickStart.md)
   * [渠道功能说明](Unity/README.md)
     * [登录模块](Unity/Module/Login.md)
     * [分享模块](Unity/Module/Share.md)
