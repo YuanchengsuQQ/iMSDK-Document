@@ -28,19 +28,23 @@
 
 ## 接入步骤
 
-1. 申请iMSDK Game ID
+1. 了解iMSDK基本概念
+
+   iMSDK 是海外版本的MSDK，是由众多插件（Plugin）组成。可以通过点击[iMSDK基础](Pre/setup.md)来了解接入iMSDK的必要知识准备，也可以点击[iMSDK系统架构]来深入了解iMSDK技术框架
+    
+2. 申请iMSDK Game ID
    
    进入iTop官网业务接入页面：[https://open.itop.qq.com/app/first](https://open.itop.qq.com/app/first/)，填写相关信息并等待iMSDK结果通知
    
-2. 申请需要接入渠道平台
+3. 申请需要接入渠道平台
 
   开发者需要自行到需要接入的渠道平台申请开发者账号及应用信息，常见接入渠道请点击[应用申请地址列表](Pre/ChannelLink.md)查看
 
-3. 下载iMSDK
+4. 下载iMSDK
 
   请进入iTop官网业务下载界面：[https://open.itop.qq.com/download](https://open.itop.qq.com/download)，选择游戏需要的SDK进行下载
 
-4. 开始接入
+5. 开始接入
 
   可以根据对应的平台指引文档进行开发，快速入口：
   
