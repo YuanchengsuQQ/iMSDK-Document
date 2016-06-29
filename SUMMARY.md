@@ -12,7 +12,7 @@
     * [登录模块](Unity/Module/Login.md)
     * [分享模块](Unity/Module/Share.md)
     * [好友模块](Unity/Module/Friend.md)
-  * [2.5 渠道配置说明](Unity/Channel.md)
-    * [2.5.1 Facebook](Untiy/Channel/Facebook.md)
+  * [渠道配置说明](Unity/Channel.md)
+    * [Facebook](Untiy/Channel/Facebook.md)
 
 
