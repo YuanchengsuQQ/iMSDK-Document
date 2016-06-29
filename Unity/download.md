@@ -19,6 +19,8 @@
 
 3. 点击界面中“CreateUnity”按钮
 
+  ![创建Unity插件包](Images/4_1_unity_download_create_package.jpg)
+
 4. 等待完成后，会在目录中生成imsdk.unitypackage文件
 
 5. 双击生成的文件unitypackage，导入Unity工程即可
