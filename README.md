@@ -18,13 +18,16 @@
 
 1. 申请iMSDK Game ID
    
-   进入iTop官网业务接入页面：[https://open.itop.qq.com/app/first/](https://open.itop.qq.com/app/first/)，填写相关信息，等待iMSDK结果通知
+   进入iTop官网业务接入页面：[https://open.itop.qq.com/app/first/](https://open.itop.qq.com/app/first/)，填写相关信息并等待iMSDK结果通知
    
 2. 申请需要接入渠道平台
 
-  到需要接入的渠道平台进行配置
+  开发者需要自行到需要接入的渠道平台申请开发者账号及应用信息，常见
 
 3. 下载iMSDK
+
+  
+
 4. 开始接入
 
 
