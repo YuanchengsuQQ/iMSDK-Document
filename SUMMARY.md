@@ -22,6 +22,7 @@
      * [4.4.2 分享模块(Share)](Unity/Module/Share.md)
      * [4.4.3 好友模块(Friend)](Unity/Module/Friend.md)
      * [4.4.5 支付模块(Pay)](Unity/Module/Pay.md)
+   * [渠道配置说明](Unity/Channel/README.md)
 * [5. C++开发指引](Cpp/README.md)
    * [5.1 下载及使用](Cpp/download.md)
    * [5.2 设置开发环境](Cpp/setupenv.md)
