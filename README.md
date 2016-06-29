@@ -42,7 +42,7 @@
 
 4. 开始接入
 
-  可以根据对应的平台指引文档，进行文档开发，快速入口：
+  可以根据对应的平台指引文档进行开发，快速入口：
   
   * [Android 快速开发指引](Android/quickstart.md)
   * [iOS 快速开发指引](iOS/quickstart.md)
