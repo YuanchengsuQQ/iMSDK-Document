@@ -19,7 +19,7 @@
 | -- | -- | -- |
 | [Facebook](https://developers.facebook.com) |  |
 | [GooglePlay](https://play.google.com/apps/publish) |  |
-| [WeChat](https://play.google.com/apps/publish) |  |
+| [WeChat](http://dev.wechat.com) |  |
 
 ## 
 
