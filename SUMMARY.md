@@ -2,7 +2,7 @@
 
 * [1. 介绍](README.md)
 * [2. Android](Android/README.md)
-  * [4.1 下载及使用](Android/DowloadAndFileStruct.md)
+  * [4.1 下载及使用](Android/Dowload.md)
   * [4.2 设置开发环境](Android/SetupEnv.md)
   * [4.3 快速集成指南](Android/QuickStart.md)
 * [3. iOS](iOS/README.md)
