@@ -13,7 +13,7 @@
    * [4.1 下载及使用](Unity/download.md)
    * [4.2 设置开发环境](Unity/setupenv.md)
    * [4.3 快速集成指南](Unity/quickstart.md)
-* [5. C++](Cpp/readme.md)
+* [5. C++](Cpp/README.md)
    * [5.1 下载及使用](Cpp/download.md)
    * [5.2 设置开发环境](Cpp/setupenv.md)
    * [5.3 快速集成指南](Cpp/quickstart.md)
