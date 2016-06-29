@@ -1,3 +1,5 @@
-# My Awesome Book
+# iMSDK 开发指引文档
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这里主要介绍腾讯iTop平台下的iMSDK开发使用文档
+
+
