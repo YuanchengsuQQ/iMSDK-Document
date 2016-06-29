@@ -3,7 +3,8 @@
         "comment",
         "ace",
         "-advanced-emoji",
-        "atoc"
+        "atoc",
+        "sectionx"
     ],
     "pluginsConfig": {}
 }
