@@ -3,7 +3,7 @@
 
 ## 简介
 
-iMSDK Unity SDK 采用 C# 语言进行开发，并以源码的形式提供，并调用Android和iOS Native代码，实现Unity在底层的调用。
+iMSDK Unity SDK 采用 C# 语言进行开发，并以源码的形式提供，并调用 Android 和iOS Native 代码，实现 Unity 在底层的调用。
 
 ## 渠道支持列表
 
@@ -14,4 +14,16 @@ iMSDK Unity SDK 采用 C# 语言进行开发，并以源码的形式提供，并
 | 关系链 | Facebook、Google(GooglePlus)、WeChat（微信） |
 | 支付 | MidasGoogle（米大师Google支付）、MidasMol（米大师MOL支付） |
 | 推送 | XG（信鸽）、XGGCM（信鸽GCM版） |
+
+## 开始使用
+
+接入Unity版本的iMSDK插件，一般步骤如下：
+
+1. 下载及打包Unity插件
+  
+  可以在
+  
+2. 申请渠道应用信息
+3. 配置开发环境
+3. 
   
