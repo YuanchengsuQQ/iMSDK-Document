@@ -12,7 +12,7 @@
 
 1. 了解iMSDK基本概念
 
-   iMSDK 是海外版本的MSDK，是由众多插件（Plugin）组成。可以通过点击[iMSDK基础](Pre/setup.md)来了解接入iMSDK的必要知识准备，也可以点击[iMSDK系统架构]来深入了解iMSDK技术框架
+   iMSDK 是海外版本的MSDK，是由众多插件（Plugin）组成。可以通过点击[iMSDK基础](Pre/setup.md)来了解接入iMSDK的必要知识准备，也可以点击[iMSDK系统架构](Pre/ach.md)来深入了解iMSDK技术框架
     
 2. 申请iMSDK Game ID
    
