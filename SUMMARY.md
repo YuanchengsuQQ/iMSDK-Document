@@ -12,6 +12,5 @@
     * [2.4.3 好友模块](Unity/Module/Friend.md)
   * [2.5 渠道配置说明](Unity/Channel.md)
     * [2.5.1 Facebook](Untiy/Channel/Facebook.md)
-      * [2.5.1.1 Facebook登录](Unity/Channel/Facebook/Login.md)
-      * 
+
 
