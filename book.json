@@ -11,20 +11,9 @@
         "layout"
     ],
     "pluginsConfig": {
-        "page-footer": {
-            "isShowIssues": false,
-            "wisdom": "加速您的海外业务拓展",
-            "copyright": "Copyright &#169; iMSDK , Tencent",
-            "style": "normal",
-            "isShowQRCode": true,
-            "timeColor": "#666",
-            "utcOffset": "8",
-            "format": "yyyy-MM-dd hh:mm:ss",
-            "signature": "iMSDK",
-            "token": "",
-            "baseUri": "https://itop.qq.com/",
-            "copyrightColor": "#666",
-            "description": "modified at"
+        "layout": {
+            "headerPath" : "layouts/header.html",
+            "footerPath" : "layouts/footer.html"
         }
     }
 }
