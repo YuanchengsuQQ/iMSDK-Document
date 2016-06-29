@@ -14,7 +14,13 @@
 | [Unity](Unity/README.md) | C# |
 | [类Cocos C++引擎](Cpp/README.md) | C++ |
 
-## 开始接入
+## 接入步骤
+
+1. 申请iMSDK Game ID
+   
+   请到iTop官网申请接入：[https://open.itop.qq.com/app/first/](https://open.itop.qq.com/app/first/)
+   
+2. 申请
 
 
 
