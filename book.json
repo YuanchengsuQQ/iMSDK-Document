@@ -4,7 +4,8 @@
         "ace",
         "-advanced-emoji",
         "atoc",
-        "sectionx"
+        "sectionx",
+        "include-codeblock"
     ],
     "pluginsConfig": {}
 }
