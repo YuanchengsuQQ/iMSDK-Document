@@ -3,7 +3,7 @@
 ## 环境依赖
 
 1. Unity >= 4.6，下载地址：[https://store.unity.com/cn](https://store.unity.com/cn)
-2. Python
+2. Python，下载地址：[https://www.python.org](https://www.python.org)
 
 ## 打包方法
 
