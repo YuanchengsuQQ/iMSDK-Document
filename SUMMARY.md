@@ -24,4 +24,5 @@
 * [6. 渠道平台设置](Channel/README.md)
    * [6.1 Facebook平台设置](Channel/facebook.md)
    * [6.2 WeChat平台设置](Channel/wechat.md)
-
+* [7. iMSDK后台]
+  * 
