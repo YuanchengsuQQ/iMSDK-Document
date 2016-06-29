@@ -7,10 +7,17 @@
 
 | 平台| 语言 | 功能列表 |
 | -- | -- | -- | -- |
-| [Android](Android/Android.md) | Java | 
+| [Android](Android/Android.md) | Java | [登录(Login)](Android/Login.md) 、[分享(Share)](Android/Share.md)
 | [iOS](iOS/iOS.md) | C++ (C98、C11) |
 | [Unity](Unity/Unity.md) | C# |
 | [类 Cocos C++ 引擎](Cpp/Cpp.md) | C++ |
+
+
+## 支持功能列表
+
+| 渠道 | 功能 | 支持平台 |
+| -- | -- | -- |
+| [Facebook](https://developers.facebook.com) |  |
 
 
 
