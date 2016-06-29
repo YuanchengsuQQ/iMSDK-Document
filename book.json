@@ -24,7 +24,7 @@
           "utcOffset": "8",
           "isShowQRCode": true,
           "baseUri": "https://itop.qq.com/",
-          "isShowIssues": true,
+          "isShowIssues": false,
           "repo": "aleen42/PersonalWiki",
           "token": "",
           "style": "normal"
