@@ -38,10 +38,16 @@
 
 3. 下载iMSDK
 
-  
+  请进入iTop官网业务下载界面：[https://open.itop.qq.com/download](https://open.itop.qq.com/download)，选择游戏需要的SDK进行下载
 
 4. 开始接入
 
+  可以根据对应的平台指引文档，进行文档开发，快速入口：
+  
+  * [Android 快速开发指引](Android/quickstart.md)
+  * [iOS 快速开发指引](iOS/quickstart.md)
+  * [Unity 快速开发指引](Unity/quickstart.md)
+  * [C++ 快速开发指引](Cpp/quickstart.md)
 
 ## 联系我们
 
