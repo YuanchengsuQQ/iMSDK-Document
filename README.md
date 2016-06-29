@@ -12,7 +12,7 @@
 | [Android](Android/README.md) | Java |
 | [iOS](iOS/README.md) | C++(C98、C11) |
 | [Unity](Unity/README.md) | C# |
-| [类Cocos C++引擎](Cpp/README.md) | C++ |
+| [C++引擎](Cpp/README.md) | C++ |
 
 ## 功能支持
 
