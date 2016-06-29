@@ -12,10 +12,6 @@
 | [Unity](Unity/README.md) | C# |
 | [类 Cocos C++ 引擎](Cpp/README.md) | C++ |
 
-## 支持渠道列表
-
-
-
 ## 业务支持
 
 | 业务 | 联系人 |
