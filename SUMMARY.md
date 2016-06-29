@@ -3,7 +3,7 @@
 * [1. iMSDK介绍](README.md)
    * [1.1 基础准备](Pre/setup.md)
    * [1.2 架构介绍](Pre/arch.md)
-   * [1.3 渠道申请地址](Pre/channellink.md)
+   * [1.3 渠道申请](Pre/channellink.md)
    * [1.4 联系我们](Pre/contact.md)
 * [2. Android](Android/README.md)
    * [2.1 下载及使用](Android/dowload.md)
