@@ -17,9 +17,10 @@
 
 | 平台 |  |
 | -- | -- |
-| Android | [Android 渠道支持列表](AndroidChannelList.md) |
-| iOS | [iOS 渠道支持列表](iOSChannelList.md) |
-| Unity | [iOS 渠道支持列表](UnityChannelList.md) |
+| Android | [Android 渠道支持列表](Android/ChannelList.md) |
+| iOS | [iOS 渠道支持列表](iOS/ChannelList.md) |
+| Unity | [iOS 渠道支持列表](Unity/ChannelList.md) |
+| [类 Cocos C++ 引擎] | [iOS 渠道支持列表](Unity/ChannelList.md) |
 
 ## 业务支持
 
