@@ -10,7 +10,7 @@
 | Android | Java | 
 | iOS | C++ (C98、C11) |
 | Unity | C# |
-| 类Cocos C++ 引擎 | C++ |
+| 类 Cocos C++ 引擎 | C++ |
 
 
 
