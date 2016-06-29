@@ -15,7 +15,7 @@
 
 ## 渠道支持列表
 
-| 平台 |  |
+| 平台 | 文档地址 |
 | -- | -- |
 | Android | [Android 渠道支持列表](Android/ChannelList.md) |
 | iOS | [iOS 渠道支持列表](iOS/ChannelList.md) |
