@@ -7,26 +7,24 @@
         "sectionx",
         "include-codeblock",
         "header",
-        "page-footer"
+        "page-footer",
+        "layout"
     ],
     "pluginsConfig": {
-      "layout": {
-        "headerPath" : "layouts/header.html"
-      },
-      "page-footer": {
-          "description": "modified at",
-          "signature": "iMSDK",
-          "wisdom": "加速您的海外业务拓展",
-          "format": "yyyy-MM-dd hh:mm:ss",
-          "copyright": "Copyright &#169; iMSDK , Tencent",
-          "timeColor": "#666",
-          "copyrightColor": "#666",
-          "utcOffset": "8",
-          "isShowQRCode": true,
-          "baseUri": "https://itop.qq.com/",
-          "isShowIssues": false,
-          "token": "",
-          "style": "normal"
-      }
+        "page-footer": {
+            "isShowIssues": false,
+            "wisdom": "加速您的海外业务拓展",
+            "copyright": "Copyright &#169; iMSDK , Tencent",
+            "style": "normal",
+            "isShowQRCode": true,
+            "timeColor": "#666",
+            "utcOffset": "8",
+            "format": "yyyy-MM-dd hh:mm:ss",
+            "signature": "iMSDK",
+            "token": "",
+            "baseUri": "https://itop.qq.com/",
+            "copyrightColor": "#666",
+            "description": "modified at"
+        }
     }
 }
