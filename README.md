@@ -17,10 +17,10 @@
 
 | 平台 | 文档地址 |
 | -- | -- |
-| [Android](Android/README.md) | [Android 渠道支持列表](Android/ChannelList.md) |
-| [iOS](iOS/README.md) | [iOS 渠道支持列表](iOS/ChannelList.md) |
-| [Unity](Unity/README.md) | [iOS 渠道支持列表](Unity/ChannelList.md) |
-| [类 Cocos C++ 引擎](Cpp/README.md) | [C++ 渠道支持列表](Cpp/ChannelList.md) |
+| [Android](Android/README.md) | [Android 渠道列表](Android/ChannelList.md) |
+| [iOS](iOS/README.md) | [iOS 渠道列表](iOS/ChannelList.md) |
+| [Unity](Unity/README.md) | [iOS 渠道列表](Unity/ChannelList.md) |
+| [类 Cocos C++ 引擎](Cpp/README.md) | [C++ 渠道列表](Cpp/ChannelList.md) |
 
 ## 业务支持
 
