@@ -27,6 +27,10 @@
 
 ## 平台支持
 
+目前，我们支持Android、iOS两大移动平台，并提供Unity、C++版本的接口封装
+
+** 需要注意的是，我们并不是全平台支持，目前iMSDK只支持Android、iOS两大移动平台**
+
 | 平台 | 语言 |
 | -- | -- |
 | [Android](Android/README.md) | Java |
