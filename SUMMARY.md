@@ -11,7 +11,7 @@
    * [3.3 快速集成指南](iOS/quickstart.md)
 * [4. Unity](Unity/readme.md)
    * [4.1 下载及使用](Unity/download.md)
-   * [4.2 设置开发环境](Unity/SetupEnv.md)
+   * [4.2 设置开发环境](Unity/setupenv.md)
    * [4.3 快速集成指南](Unity/QuickStart.md)
 * [5. 渠道平台设置](Channel/README.md)
    * [5.1 Facebook平台设置](Channel/Facebook.md)
