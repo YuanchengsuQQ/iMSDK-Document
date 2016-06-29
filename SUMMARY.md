@@ -4,7 +4,7 @@
 * [介绍](README.md)
   * [基础准备]()
  
-## 2
+## B
 
 * [2. Android](Android/README.md)
    * [2.1 下载及使用](Android/dowload.md)
