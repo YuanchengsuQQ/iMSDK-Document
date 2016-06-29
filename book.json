@@ -1,7 +1,8 @@
 {
     "plugins": [
         "comment",
-        "ace"
+        "ace",
+        "advanced-emoji"
     ],
     "pluginsConfig": {}
 }
