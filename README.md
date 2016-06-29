@@ -7,10 +7,10 @@
 
 | 平台| 语言 | 功能列表 |
 | -- | -- | -- | -- |
-| Android | Java | 
-| iOS | C++ (C98、C11) |
+| [Android](Android/Android.md) | Java | 
+| [iOS](iOS/iOS.md) | C++ (C98、C11) |
 | [Unity](Unity/Unity.md) | C# |
-| 类 Cocos C++ 引擎 | C++ |
+| [类 Cocos C++ 引擎](Cpp/Cpp.md) | C++ |
 
 
 
