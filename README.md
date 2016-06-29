@@ -1,5 +1,5 @@
 
-# iMSDK Unity 开发指引文档
+# iMSDK 开发指引文档
 
 ## iMSDK 简介
 
