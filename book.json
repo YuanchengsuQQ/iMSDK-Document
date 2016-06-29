@@ -25,7 +25,6 @@
           "isShowQRCode": true,
           "baseUri": "https://itop.qq.com/",
           "isShowIssues": false,
-          "repo": "aleen42/PersonalWiki",
           "token": "",
           "style": "normal"
       }
