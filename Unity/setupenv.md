@@ -140,6 +140,7 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
     
   > 如果没有，可以点击下方“+”，在弹出的选择框中选中添加的证书文件，点击“Add”进行添加
    
+  ![XCode Https证书](Images/4_2_unity_setupenv_xcode_cer.jpg)
   *iMSDKServer.cer证书文件获取方法可以参考Android HTTPS配置部分说明*
    
 ### 添加资源和插件
