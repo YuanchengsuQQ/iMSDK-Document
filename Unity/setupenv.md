@@ -4,25 +4,36 @@
 
 ### HTTPS证书文件
 
-  Unity中的文件路径为：
+Unity中的文件路径为：
 
-  ```sh
-  Assets/Plugins/Android/assets/iMSDKServer.cer
-  ```
+```sh
+Assets/Plugins/Android/assets/iMSDKServer.cer
+```
 
-  ![HTTPS证书位置](Images/4_2_unity_setupenv_cer.jpg)
-  
-  iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书文件。
+![HTTPS证书位置](Images/4_2_unity_setupenv_cer.jpg)
 
-  如果需要替换证书，可以参考如下方法获取证书：
+iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书文件。
 
-  在Linux（或Mac）系统中，可以通过如下shell命名获取HTTPS证书
-  
-  ```sh
-  $ IMSDK_SERVER=sdkapi-beta.itop.qq.com
-  $ echo -n | openssl s_client -showcerts -connect $IMSDK_SERVER:443 | openssl x509 -outform DER > iMSDKServer.cer
-  ```
-  
+如果需要替换证书，可以参考如下方法获取证书：
+
+在Linux（或Mac）系统中，可以通过如下shell命名获取HTTPS证书
+
+```sh
+$ IMSDK_SERVER=sdkapi-beta.itop.qq.com
+$ echo -n | openssl s_client -showcerts -connect $IMSDK_SERVER:443 | openssl x509 -outform DER > iMSDKServer.cer
+```
+
+运行结果：
+
+```
+depth=2 /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign, Inc. - For authorized use only/CN=VeriSign Class 3 Public Primary Certification Authority - G5
+verify error:num=20:unable to get local issuer certificate
+verify return:0
+DONE
+AeonYangdeiMac:iMSDK_Unity3D_V1.9.2 AeonYang$ ls iMSDKServer.cer
+iMSDKServer.cer
+```
+
   > 注意：sdkapi-beta.itop.qq.com为iMSDK测试服务器，游戏需要根据自己的真是服务器地址进行修改
 
   另外，我们还可以借助浏览器进行文件导出，Mac下用Safari即可，Windows下面我们建议使用Chrome。在浏览器中输入HTTPS地址，如：
