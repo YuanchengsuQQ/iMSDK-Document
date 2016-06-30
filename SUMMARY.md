@@ -45,7 +45,7 @@
            * [4.4.13.11 SQW(37玩)功能扩展](Unity/Module/Extend/sqw.md)
            * [4.4.13.12 Tapjoy功能扩展](Unity/Module/Extend/tapjoy.md)
            * [4.4.13.13 Toy功能扩展](Unity/Module/Extend/toy.md)
-   * [5. 渠道配置说明](Unity/Channel/README.md)
+   * [4.5 渠道配置说明](Unity/Channel/README.md)
        * [5.1 Facebook配置](Unity/Channel/facebook.md)
 * [5. C++开发指引](Cpp/README.md)
    * [5.1 下载及使用](Cpp/download.md)
