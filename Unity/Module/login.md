@@ -39,7 +39,6 @@ IMSDKApi.Login.Login();
 iMSDK支持多登陆态共存，如:
 
 ```cs
-
 // Facebook 登陆
 IMSDKApi.Login.SetChannel("Facebook");
 IMSDKApi.Login.Login();
