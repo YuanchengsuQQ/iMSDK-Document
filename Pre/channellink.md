@@ -7,4 +7,5 @@
 | -- | :-- |
 | Facebook | [https://developers.facebook.com](https://developers.facebook.com) |
 | GooglePlay | [https://play.google.com/apps/publish/](https://play.google.com/apps/publish/) |
-| GooglePlus | [https://console.developers.google.com/](https://console.developers.google.com/) | WeChat(微信) | [http://dev.wechat.com](http://dev.wechat.com) |
+| GooglePlus | [https://console.developers.google.com/](https://console.developers.google.com/) |
+| WeChat(微信) | [http://dev.wechat.com](http://dev.wechat.com) |
