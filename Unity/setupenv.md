@@ -1,5 +1,7 @@
 # 4.2 设置开发环境
 
+目前，iMSDK支持Android和iOS两大平台代码调用
+
 ## Android工程配置
 
 ### HTTPS证书文件
