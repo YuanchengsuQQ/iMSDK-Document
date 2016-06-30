@@ -97,8 +97,6 @@ iMSDK提供了一套账号绑定机制，可以实现不同渠道的账号关联
 IMSDKApk.Login.SetChannel("Guest");
 IMSDKApi.Login.Login();
 
-...
-
 // 绑定到Facebook
 IMSDKApi.Login.Bind("Facebook");
 ```
