@@ -76,7 +76,15 @@ IMLoginResult wechatLoginResult = IMSDKApi.Login.GetLoginResult();
 
 同样，登出时也需要根据渠道进行登出。
 
+```cs
+// 登出Facebook
+IMSDKApi.Login.SetChannel("Facebook");
+IMSDKApi.Login.Logout();
 
+// 登出微信
+IMSDKApi.Login.SetChannel("WeChat");
+IMSDKApi.Login.Logout();
+```
 
 ### 绑定功能说明
 
