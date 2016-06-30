@@ -2,7 +2,7 @@
 
 ## Android工程配置
 
-* HTTPS证书文件
+### HTTPS证书文件
 
   Unity中的文件路径为：
 
@@ -39,7 +39,7 @@
     4. 点击“浏览”选择保存文件路径，并将文件命名为iMSDKServer.cer
 
 
-* 配置基础信息
+### 配置基础信息
 
   Android工程配置主要是修改Assets/Plugins/AndroidManifest.xml文件
 
@@ -91,7 +91,7 @@
       <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="103.7.28.42"/>
       ```
 
-### iOS工程配置
+## iOS工程配置
   
 iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode工程进行配置
 
