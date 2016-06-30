@@ -46,7 +46,6 @@ void HandleTouchEvent() {
   List<string> permissionList = new List<string> ();
   permissionList.Add ("user_friends");
   IMSDKApi.Login.Login (OnFacebookLogin, permissionList);
-  IMSDKApi.Login.Login()
 }
 ```
 
