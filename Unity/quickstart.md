@@ -49,3 +49,7 @@ void HandleTouchEvent() {
   IMSDKApi.Login.Login()
 }
 ```
+
+## 下一步
+
+[查看各功能模块参考](Module/README.md)
