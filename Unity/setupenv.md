@@ -113,7 +113,7 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
    
   *iMSDKServer.cer证书文件获取方法可以参考Android HTTPS配置部分说明*
    
-* 添加资源和插件
+### 添加资源和插件
 
     *请参考iOS文档进行配置*
     
