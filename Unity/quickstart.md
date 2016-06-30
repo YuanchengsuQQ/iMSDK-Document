@@ -31,13 +31,13 @@ void Start() {
 ```cs
 void OnFacebookLogin(IMLoginResult loginResult) {
   if(loginResult.RetCode == 1) {
-    //TODO Login success
+    //TODO login success
     Debug.Log("user name : " + loginResult.GuidUserNick);
     Debug.Log("openid : " + loginResult.OpenId);
     Debug.Log("iMSDK token : " + loginResult.GuidToken);
   }
   else {
-    //TODO Login error
+    //TODO login error
     Debug.Log("login error : " + loginResult.ErrorMsg);
   }
 }
