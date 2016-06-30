@@ -32,7 +32,8 @@
        * [4.4.11 内置浏览器(WebView)](Unity/Module/webview.md)
        * [4.4.12 广告(Ads)](Unity/Module/ads.md)
        * [4.4.13 扩展功能(Extend)](Unity/Module/extend.md)
-         * 
+         * [4.4.13.1 Bulgy功能扩展](Unity/Module/Extend/bugly.md) 
+         * [4.4.13.2 GM(G妹)功能扩展](Unity/Module/Extend/gm.md)
    * [5. 渠道配置说明](Unity/Channel/README.md)
        * [5.1 Facebook配置](Unity/Channel/facebook.md)
 * [5. C++开发指引](Cpp/README.md)
