@@ -28,7 +28,7 @@
        * [4.4.8 公告模块(Notice)](Unity/Module/notice.md)
        * [4.4.8 分包下载(Expanson)](Unity/Module/obb.md)
        * [4.4.9 位置服务(Location)](Unity/Module/location.md)
-       * [4.4.10 帮助反馈(Feedback)](Unity/Module/feedback.md)
+       * [4.4.10 帮助反馈(Help)](Unity/Module/help.md)
        * [4.4.11 内置浏览器(WebView)](Unity/Module/webview.md)
        * [4.4.12 广告(Ads)](Unity/Module/ads.md)
    * [5. 渠道配置说明](Unity/Channel/README.md)
