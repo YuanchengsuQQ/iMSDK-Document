@@ -15,8 +15,6 @@ iMSDK Unity SDK 采用 C# 语言进行开发，并以源码的形式提供，并
 | 支付 | MidasGoogle（米大师Google支付）、MidasMol（米大师MOL支付） |
 | 推送 | XG（信鸽）、XGGCM（信鸽GCM版） |
 
-
-
 ## 开始接入
 
 完成SDK下载后，需要进行如下操作使得插件能够正常运行：
