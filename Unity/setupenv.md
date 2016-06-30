@@ -105,7 +105,7 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
   
   如果遇到Bitcode报错（Unity 4.x版本不支持），可以通过在XCode工程 -> Build Settings -> Build Options -> Enable Bitcode 中，将值修改为No
 
-* HTTPS证书文件
+### HTTPS证书文件
     
   将iMSDKServer.cer证书文件拖到XCode工程中，并在XCode工程 Build Phases -> Copy Bundle Resources中，确认iMSDKServer.cer文件已经添加到拷贝列表
     
