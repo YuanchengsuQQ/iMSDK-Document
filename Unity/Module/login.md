@@ -36,6 +36,8 @@ void OnLogin(IMLoginResult loginResult) {
     Debug.Log("open id : " + loginResut.OpenId);
     Debug.Log("iMSDK token : " + loginResut.GuidToken);
   }
+  else {
+  }
 }
 // 调用登录
 IMSDKApi.Login.Login();
