@@ -10,8 +10,8 @@ iMSDK Unity SDK 采用 C# 语言进行开发，并以源码的形式提供，并
 
 完成SDK下载后，需要进行如下操作使得插件能够正常运行：
 
-1. [下载及导入插件](Unity/download.md)
-2. [设置开发环境](Unity/setupenv.md)
+1. [下载及导入插件](download.md)
+2. [设置开发环境](setupenv.md)
 3. [编写代码逻辑](Unity/quickstart.md)
 
 可以从[功能模块](Unity/Module/README.md)及[渠道配置](Unity/Channel/README.md)中找到更多信息
