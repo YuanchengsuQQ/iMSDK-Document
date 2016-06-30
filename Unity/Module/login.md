@@ -29,6 +29,8 @@ IMSDKApi.Login.Initialize();
 // 设定渠道
 IMSDKApi.Login.SetChannel("Facebook");
 
+void OnLogin(IMLoginResult loginResult) {
+}
 // 调用登录
 IMSDKApi.Login.Login();
 
