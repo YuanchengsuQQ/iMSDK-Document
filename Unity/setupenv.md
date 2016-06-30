@@ -16,23 +16,34 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
 
 如果需要替换证书，可以参考如下方法获取证书：
 
-在Linux（或Mac）系统中，可以通过如下shell命名获取HTTPS证书
+1. 脚本获取
 
-```sh
-$ IMSDK_SERVER=sdkapi-beta.itop.qq.com
-$ echo -n | openssl s_client -showcerts -connect $IMSDK_SERVER:443 | openssl x509 -outform DER > iMSDKServer.cer
-```
+  在Linux（或Mac）系统中，可以通过如下shell命名获取HTTPS证书
 
-运行结果：
+  ```sh
+  $ IMSDK_SERVER=sdkapi-beta.itop.qq.com
+  $ echo -n | openssl s_client -showcerts -connect $IMSDK_SERVER:443 | openssl x509 -outform DER > iMSDKServer.cer
+  ```
 
-```
-depth=2 /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign, Inc. - For authorized use only/CN=VeriSign Class 3 Public Primary Certification Authority - G5
-verify error:num=20:unable to get local issuer certificate
-verify return:0
-DONE
-```
+  运行结果：
+
+  ```
+  depth=2 /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign, Inc. - For authorized use only/CN=VeriSign Class 3 Public Primary Certification Authority - G5
+  verify error:num=20:unable to get local issuer certificate
+  verify return:0
+  DONE
+  ```
+
+  可以在工作目录找到证书文件
+
+  ```
+  ls -al iMSDKServer.cer
+  -rw-r--r--  1 AeonYang  staff  1285  6 30 10:45 iMSDKServer.cer
+  ```
 
   > 注意：sdkapi-beta.itop.qq.com为iMSDK测试服务器，游戏需要根据自己的真是服务器地址进行修改
+
+2. 浏览器导出
 
   另外，我们还可以借助浏览器进行文件导出，Mac下用Safari即可，Windows下面我们建议使用Chrome。在浏览器中输入HTTPS地址，如：
   
@@ -41,6 +52,8 @@ DONE
   ```
   
   * Mac系统，点击Safari导航栏中的锁形图标，点击“显示证书”，点击弹窗下方证书图标进行拖拽到桌面或者文件夹中即可复制文件，将文件重名名为iMSDKServer.cer即可
+  
+  ![Safari](Images/4_2_unity_setupenv_get_cer_safari.jpg）
   
   * Windows系统较为复杂
   
