@@ -30,6 +30,11 @@ void Start() {
 
 ```cs
 void OnFacebookLogin(IMLoginResult loginResult) {
+  if(loginResult.RetCode == 1) {
+    //TODO Login success
+    Debug.Log("openid : " + loginResult.OpenId);
+    Debug.Log("iMSDK token : " + loginResult.GuidToken);
+  }
 }
 
 void HandleTouchEvent() {
