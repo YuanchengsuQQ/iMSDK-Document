@@ -1,2 +1,2 @@
-# 6.1 Facebook平台设置
+# 6.1 Facebook设置
 
