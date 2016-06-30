@@ -32,6 +32,7 @@ IMSDKApi.Login.SetChannel("Facebook");
 void OnLogin(IMLoginResult loginResult) {
   if(loginResult.RetCode == 1) {
     // TODO
+    Debug.Log("user name : " + loginResut.GuidUserNick);
     Debug.Log("open id : " + loginResut.OpenId);
     Debug.Log("iMSDK token : " + loginResut.GuidToken);
   }
