@@ -21,3 +21,21 @@ void Start() {
 ```cs
  IMSDKApi.Login.SetChannel("Facebook");
 ```
+
+**部分功能有默认渠道，可以不用指定。我们建议显示的调用SetChannel方法，让渠道字段更清晰**
+
+## 调用代码逻辑
+
+完成初始化之后，就可以调用相应的代码功能了，如下：
+
+```cs
+void OnFacebookLogin(IMLoginResult loginResult) {
+}
+
+void HandleTouchEvent() {
+  permissionList.Add ("email");
+  permissionList.Add ("user_friends");
+  IMSDKApi.Login.Login (OnFacebookLogin, permissionList);
+  IMSDKApi.Login.Login()
+}
+```
