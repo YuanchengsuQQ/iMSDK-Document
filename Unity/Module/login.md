@@ -44,7 +44,7 @@ void OnLogin(IMLoginResult loginResult) {
 }
 
 // 调用登录
-IMSDKApi.Login.Login();
+IMSDKApi.Login.Login(OnLogin);
 
 ```
 
