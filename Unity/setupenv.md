@@ -252,4 +252,6 @@ iOS工程配置主要是修改添加的IMSDKAppSetting.bundle资源文件目录�
     <key>IMSDKServerHost</key>
     <string>sdkapi-beta.itop.qq.com</string>
     ```
-  
+ # 下一步
+ 
+ 
