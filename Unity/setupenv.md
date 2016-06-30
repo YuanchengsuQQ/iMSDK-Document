@@ -10,6 +10,8 @@
   Assets/Plugins/Android/assets/iMSDKServer.cer
   ```
 
+  ![HTTPS证书地址](Images/4_2_unity_setupenv_cer.jpg)
+  
   iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书文件。
 
   如果需要替换证书，可以参考如下方法获取证书：
