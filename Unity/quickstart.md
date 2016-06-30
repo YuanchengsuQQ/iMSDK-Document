@@ -36,6 +36,10 @@ void OnFacebookLogin(IMLoginResult loginResult) {
     Debug.Log("openid : " + loginResult.OpenId);
     Debug.Log("iMSDK token : " + loginResult.GuidToken);
   }
+  else {
+    //TODO Login error
+    Debug.Log("login error : " + loginResult.ErrorMsg);
+  }
 }
 
 void HandleTouchEvent() {
