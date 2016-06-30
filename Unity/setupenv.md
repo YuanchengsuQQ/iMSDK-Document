@@ -147,107 +147,107 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
     
 ### 基础代码调用
 
-  Unity编译导出XCode工程后，需要在工程中添加必要的代码，iMSDK插件才能正常运行
-  
-  * 添加头文件
+Unity编译导出XCode工程后，需要在工程中添加必要的代码，iMSDK插件才能正常运行
 
-    在XCode工作中，找到UnityAppController.mm文件，添加头文件引用
-    
+* 添加头文件
+
+  在XCode工作中，找到UnityAppController.mm文件，添加头文件引用
+
+  ```mm
+  #import <IMSDKCoreKit/IMSDKCoreKit.h>
+  ```
+* 增加代码调用
+
+  1. 处理应用启动 
+
+    在UnityAppController.mm文件AppDelegate中，找到如下方法
+
     ```mm
-    #import <IMSDKCoreKit/IMSDKCoreKit.h>
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions
     ```
-  * 增加代码调用
-    
-    1. 处理应用启动 
-      
-      在UnityAppController.mm文件AppDelegate中，找到如下方法
-    
-      ```mm
-      - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions
-      ```
-    
-      并在返回前添加如下代码调用
-    
-      ```mm
-      [[IMSDKApplicationDelegate sharedInstance] application:application
-                               didFinishLaunchingWithOptions:launchOptions
-                                              withGameSecret:@"YOUR_GAME_SECRET"];
-      ```
-      
-      > YOUR_GAME_SECRET 为游戏访问iMSDK服务器秘钥串，需要换成真实的秘钥串，可以跟iMSDK后台获取
-      > 
-      > 联系人RTX：hirryli
-  
-    2. 处理应用拉起
-  
-      在UnityAppController.mm文件AppDelegate中，找到如下方法
-    
-      ```mm
-      - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation
-      ```
-      
-      并在返回前添加如下代码调用
-      
-      ```mm
-      [[IMSDKApplicationDelegate sharedInstance] application:application
-                                                          openURL:url
-                                                sourceApplication:sourceApplication
-                                                       annotation:annotation];
-      ```
+
+    并在返回前添加如下代码调用
+
+    ```mm
+    [[IMSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions
+                                            withGameSecret:@"YOUR_GAME_SECRET"];
+    ```
+
+    > YOUR_GAME_SECRET 为游戏访问iMSDK服务器秘钥串，需要换成真实的秘钥串，可以跟iMSDK后台获取
+    > 
+    > 联系人RTX：hirryli
+
+  2. 处理应用拉起
+
+    在UnityAppController.mm文件AppDelegate中，找到如下方法
+
+    ```mm
+    - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation
+    ```
+
+    并在返回前添加如下代码调用
+
+    ```mm
+    [[IMSDKApplicationDelegate sharedInstance] application:application
+                                                        openURL:url
+                                              sourceApplication:sourceApplication
+                                                     annotation:annotation];
+    ```
   
 ### 基础信息配置
 
-  iOS工程配置主要是修改添加的IMSDKAppSetting.bundle资源文件目录下Contents/Resources/app.plist配置
+iOS工程配置主要是修改添加的IMSDKAppSetting.bundle资源文件目录下Contents/Resources/app.plist配置
 
-  * Game ID 配置
-  
-    在每个游戏接入的时候，都会分配一个游戏ID作为iMSDK应用标识
-    
+* Game ID 配置
+
+  在每个游戏接入的时候，都会分配一个游戏ID作为iMSDK应用标识
+
+  在XCode工程中，找到IMSDKAppSetting.bundle/Contents/Resources/app.plist文件，增加或修改如下配置：
+
+  ```xml
+  <key>GameId</key>
+  <string>11</string>
+  ```
+
+  将string值修改为对应的游戏ID
+
+* iMSDK 服务器地址配置
+
     在XCode工程中，找到IMSDKAppSetting.bundle/Contents/Resources/app.plist文件，增加或修改如下配置：
-    
+
     ```xml
-    <key>GameId</key>
-	<string>11</string>
+    <key>IMSDKServer</key>
+    <string>sdkapi-beta.itop.qq.com</string>
     ```
-    
-    将string值修改为对应的游戏ID
-  
-  * iMSDK 服务器地址配置
 
-      在XCode工程中，找到IMSDKAppSetting.bundle/Contents/Resources/app.plist文件，增加或修改如下配置：
+    将string值修改为对应的iMSDK服务器地址，不需要添加 “ https:// ”头
 
-      ```xml
-      <key>IMSDKServer</key>
-      <string>sdkapi-beta.itop.qq.com</string>
-      ```
+* 日志级别配置
 
-      将string值修改为对应的iMSDK服务器地址，不需要添加 “ https:// ”头
+    在XCode工程中，找到IMSDKAppSetting.bundle/Contents/Resources/app.plist文件，增加或修改如下配置：
 
-  * 日志级别配置
+    ```xml
+    <key>IMSDKLogLevel</key>
+    <integer>1</integer>
+    ```
+    将integer值修改为对应的日志级别：
 
-      在XCode工程中，找到IMSDKAppSetting.bundle/Contents/Resources/app.plist文件，增加或修改如下配置：
+    * 1 - Debug
+    * 2 - Info
+    * 3 - Warn
+    * 4 - Error
+    * 5 - Assert
 
-      ```xml
-      <key>IMSDKLogLevel</key>
-      <integer>1</integer>
-      ```
-      将integer值修改为对应的日志级别：
-      
-      * 1 - Debug
-      * 2 - Info
-      * 3 - Warn
-      * 4 - Error
-      * 5 - Assert
-      
-    
-  * Debug 服务器Host配置[\*]:
 
-      \*一般情况下不需要配置。该配置项主要是用于服务器未配置域名的情况，此时服务器地址可以填写IP，在本配置项中填写服务器地址，如：
+* Debug 服务器Host配置[\*]:
 
-      ```xml
-      <key>IMSDKServer</key>
-      <string>103.7.28.42</string>
-      <key>IMSDKServerHost</key>
-      <string>sdkapi-beta.itop.qq.com</string>
-      ```
+    \*一般情况下不需要配置。该配置项主要是用于服务器未配置域名的情况，此时服务器地址可以填写IP，在本配置项中填写服务器地址，如：
+
+    ```xml
+    <key>IMSDKServer</key>
+    <string>103.7.28.42</string>
+    <key>IMSDKServerHost</key>
+    <string>sdkapi-beta.itop.qq.com</string>
+    ```
   
