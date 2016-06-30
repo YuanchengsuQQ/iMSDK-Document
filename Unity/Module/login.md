@@ -29,6 +29,7 @@ IMSDKApi.Login.Initialize();
 // 设定渠道
 IMSDKApi.Login.SetChannel("Facebook");
 
+// 定义回调函数
 void OnLogin(IMLoginResult loginResult) {
   if(loginResult.RetCode == 1) {
     // TODO
@@ -41,6 +42,7 @@ void OnLogin(IMLoginResult loginResult) {
     Debug.Log("login error : " + loginResult.ErrorMsg);
   }
 }
+
 // 调用登录
 IMSDKApi.Login.Login();
 
