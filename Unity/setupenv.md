@@ -118,10 +118,11 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
       <meta-data android:name="com.tencent.imsdk.DebugServerHost" android:value="sdkapi-beta.itop.qq.com"/>
       <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="103.7.28.42"/>
       ```
- ### 下一步
- 
- 1. [完成渠道配置](Channel/README.md)
- 2. [编写代码](quickstart.md)
+
+### 下一步
+
+1. [完成渠道配置](Channel/README.md)
+2. [编写代码](quickstart.md)
  
 ## iOS工程配置
   
