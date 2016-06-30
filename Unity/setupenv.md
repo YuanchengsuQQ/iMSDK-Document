@@ -167,7 +167,7 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
                                                        annotation:annotation];
       ```
   
-* 基础信息配置
+### 基础信息配置
 
   iOS工程配置主要是修改添加的IMSDKAppSetting.bundle资源文件目录下Contents/Resources/app.plist配置
 
