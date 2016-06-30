@@ -171,6 +171,10 @@ IMSDKApi.Login.Login(OnGaranaFacebookLogin);
 
 严格登录(StrictLogin)是指，只有注册或者绑定用户才能登录成功，该功能可以实现登录是依附于一个基础账号的需求。
 
+```cs
+IMSDKApi.Login.StrictLogin(OnStrictLogin);
+```
+
 应用场景如下：
 1. 游戏进入时没有登录界面，直接用一个渠道登录，如游客（Guest）
 2. 在游戏中，提供一个绑定界面，可以绑定到其他社交渠道
