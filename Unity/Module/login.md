@@ -38,7 +38,7 @@ void OnLogin(IMLoginResult loginResult) {
   }
   else {
     // TODO
-    
+    Debug.Log("login error : " + loginResult.ErrorMsg);
   }
 }
 // 调用登录
