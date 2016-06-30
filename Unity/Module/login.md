@@ -30,6 +30,11 @@ IMSDKApi.Login.Initialize();
 IMSDKApi.Login.SetChannel("Facebook");
 
 void OnLogin(IMLoginResult loginResult) {
+  if(loginResult.RetCode == 1) {
+    // TODO
+    Debug.Log("open id : " + loginResut.OpenId);
+    Debug.Log("iMSDK token : " + loginResut.GuidToken);
+  }
 }
 // 调用登录
 IMSDKApi.Login.Login();
