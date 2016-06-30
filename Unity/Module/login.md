@@ -20,7 +20,7 @@ IMSDKApi.Login
 
 ### 基本登录
 
-iMSDK调用登录功能十分简单，一般只需要三行代码即可
+iMSDK调用登录功能十分简单，一般只需要调用三个函数即可
 
 ```cs
 // 初始化功能模块
@@ -37,6 +37,8 @@ void OnLogin(IMLoginResult loginResult) {
     Debug.Log("iMSDK token : " + loginResut.GuidToken);
   }
   else {
+    // TODO
+    
   }
 }
 // 调用登录
