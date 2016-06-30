@@ -30,8 +30,6 @@ depth=2 /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign, I
 verify error:num=20:unable to get local issuer certificate
 verify return:0
 DONE
-AeonYangdeiMac:iMSDK_Unity3D_V1.9.2 AeonYang$ ls iMSDKServer.cer
-iMSDKServer.cer
 ```
 
   > 注意：sdkapi-beta.itop.qq.com为iMSDK测试服务器，游戏需要根据自己的真是服务器地址进行修改
