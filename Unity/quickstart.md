@@ -32,6 +32,7 @@ void Start() {
 void OnFacebookLogin(IMLoginResult loginResult) {
   if(loginResult.RetCode == 1) {
     //TODO Login success
+    Debug.Log("user name : " + loginResult.GuidUserNick);
     Debug.Log("openid : " + loginResult.OpenId);
     Debug.Log("iMSDK token : " + loginResult.GuidToken);
   }
