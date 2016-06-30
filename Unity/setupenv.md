@@ -95,7 +95,7 @@
   
 iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode工程进行配置
 
-* 编译选项
+### 编译选项
 
   在XCode工程 -> Build Settings -> Linking -> Other Linker Flags 中，添加如下编译选项：
   
