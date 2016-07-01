@@ -72,41 +72,41 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
 
   * Game ID 配置
 
-      在每个游戏接入的时候，都会分配一个游戏ID作为iMSDK应用标识
+    在每个游戏接入的时候，都会分配一个游戏ID作为iMSDK应用标识
 
-      在AndroidManifest.xml中找到配置项：
+    在AndroidManifest.xml中找到配置项：
 
-      ```xml
-      <meta-data android:name="com.tencent.imsdk.GameId" android:value="\ 11"/>
-      ```
+    ```xml
+    <meta-data android:name="com.tencent.imsdk.GameId" android:value="\ 11"/>
+    ```
 
-      将value值修改为对应的游戏ID。注意，前面的"\\"和空格须保留
+    将value值修改为对应的游戏ID。注意，前面的"\\"和空格须保留
 
   * iMSDK 服务器地址配置
 
-      在AndroidManifest.xml中找到配置项：
+    在AndroidManifest.xml中找到配置项：
 
-      ```xml
-      <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="sdkapi-beta.itop.qq.com"/>
-      ```
+    ```xml
+    <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="sdkapi-beta.itop.qq.com"/>
+    ```
 
-      将value值修改为对应的iMSDK服务器地址，不需要添加 “ https:// ”头
+    将value值修改为对应的iMSDK服务器地址，不需要添加 “ https:// ”头
 
   * 日志级别配置
 
-      在AndroidManifest.xml中找到配置项：
+    在AndroidManifest.xml中找到配置项：
 
-      ```xml
-      <meta-data android:name="com.tencent.imsdk.debug.level" android:value="2" />
-      ```
-      将value值修改为对应的日志级别：
-      
-      * 2 - Vibose
-      * 3 - Debug
-      * 4 - Info
-      * 5 - Warn
-      * 6 - Error
-      * 7 - Assert
+    ```xml
+    <meta-data android:name="com.tencent.imsdk.debug.level" android:value="2" />
+    ```
+    将value值修改为对应的日志级别：
+
+    * 2 - Vibose
+    * 3 - Debug
+    * 4 - Info
+    * 5 - Warn
+    * 6 - Error
+    * 7 - Assert
 
 
   * Debug 服务器Host配置[\*]:
