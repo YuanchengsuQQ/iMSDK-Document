@@ -59,5 +59,8 @@
    * [6.2 WeChat平台设置](Channel/wechat.md)
 * [7. iMSDK后台](Server/README.md)
 * [8. 常见问题说明](Help/README.md)
-  * [Android入口Activity](Help/androidmainactivity.md)
+  * [常见错误码与错误说明](Help/commonerrno.md)
+  * [Android入口Activity问题](Help/androidmainactivity.md)
+  * [iOS C++98与C++11说明](Help/ioscppversion.md)
+  * 
 
