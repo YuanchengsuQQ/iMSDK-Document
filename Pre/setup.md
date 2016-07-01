@@ -26,7 +26,7 @@
  
   Game ID 在接入 iMSDK时，由iMSDK进行分配
 
-## 平台支持
+### 平台支持
 
 目前，我们支持Android、iOS两大移动平台，并提供Unity、C++版本的接口封装
 
