@@ -55,7 +55,7 @@
    * [6.1 Facebook设置](Channel/facebook.md)
      * [6.1.1 Facebook 开发者中心配置](Channel/Facebook/developers.md)
      * [6.1.2 Android 工程配置](Channel/Facebook/android.md)
-     * [6.1.3 iOS 工程配置](Channel 
+     * [6.1.3 iOS 工程配置](Channel/Facebook/ios.md)
    * [6.2 WeChat平台设置](Channel/wechat.md)
 * [7. iMSDK后台](Server/README.md)
 * [8. 常见问题说明](Help/README.md)
