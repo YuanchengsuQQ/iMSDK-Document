@@ -39,7 +39,7 @@
 | [Unity](Unity/README.md) | C# | 只支持Android、iOS手机平台 |
 | [C++引擎](Cpp/README.md) | C++ | 只支持Android、iOS手机平台 |
 
-## 功能支持
+### 功能支持
 
 iMSDK按常见的接入功能分成如下常见功能模块：
 
