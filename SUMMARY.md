@@ -59,4 +59,5 @@
    * [6.2 WeChat平台设置](Channel/wechat.md)
 * [7. iMSDK后台](Server/README.md)
 * [8. 常见问题说明](Help/README.md)
+  * [Android入口Activity](Help/androidmainactivity.md)
 
