@@ -180,7 +180,7 @@ Unity编译导出XCode工程后，需要在工程中添加必要的代码，iMSD
                                             withGameSecret:@"YOUR_GAME_SECRET"];
     ```
 
-    > YOUR_GAME_SECRET 为游戏访问iMSDK服务器秘钥串，需要换成真实的秘钥串，可以跟iMSDK后台获取，请[联系我们](../Pre/contack.md)确认该值
+    > YOUR_GAME_SECRET 为游戏访问iMSDK服务器秘钥串，需要换成真实的秘钥串，可以跟iMSDK后台获取，请[联系我们](../../Pre/contack.md)确认该值
 
   2. 处理应用拉起
 
