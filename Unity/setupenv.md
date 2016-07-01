@@ -111,11 +111,11 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
 
   * Debug 服务器Host配置[\*]:
 
-      \*一般情况下不需要配置。该配置项主要是用于服务器未配置域名的情况，此时服务器地址可以填写IP，在本配置项中填写服务器地址，如：
+    \*一般情况下不需要配置。该配置项主要是用于服务器未配置域名的情况，此时服务器地址可以填写IP，在本配置项中填写服务器地址，如：
 
-      ```xml
-      <meta-data android:name="com.tencent.imsdk.DebugServerHost" android:value="sdkapi-beta.itop.qq.com"/>
-      <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="103.7.28.42"/>
+    ```xml
+    <meta-data android:name="com.tencent.imsdk.DebugServerHost" android:value="sdkapi-beta.itop.qq.com"/>
+    <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="103.7.28.42"/>
       ```
 
 ### 下一步
