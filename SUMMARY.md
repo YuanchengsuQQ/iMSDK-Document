@@ -49,7 +49,7 @@
        * [5.1 Facebook配置](Unity/Channel/facebook.md)
 * [5. C++开发指引](Cpp/README.md)
    * [5.1 下载及使用](Cpp/download.md)
-   * [5.2 设置开发环境](Cpp/setupenv.md)
+   * [5.2 配置开发环境](Cpp/setupenv.md)
    * [5.3 快速集成指南](Cpp/quickstart.md)
 * [6. 渠道平台设置](Channel/README.md)
    * [6.1 Facebook设置](Channel/facebook.md)
