@@ -33,7 +33,7 @@
 
 > 如果打包过程中遇到任何问题，请联系RTX：yuanchengsu
 
-## 插件导入
+### 插件导入
 
 * Android
 
@@ -43,7 +43,7 @@
 
   需要Unity编译成XCode工程后，进行插件导入，具体请查看iMSDK iOS文档
 
-## 下一步
+### 下一步
 
 [配置开发环境](setupenv.md)
 
