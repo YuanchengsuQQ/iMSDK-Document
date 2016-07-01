@@ -7,7 +7,7 @@
    * [1.4 联系我们](Pre/contact.md)
 * [2. Android开发指引](Android/README.md)
    * [2.1 下载及使用](Android/download.md)
-   * [2.2 设置开发环境](Android/setupenv.md)
+   * [2.2 配置开发环境](Android/setupenv.md)
    * [2.3 快速集成指南](Android/quickstart.md)
 * [3. iOS开发指引](iOS/README.md)
    * [3.1 下载及使用](iOS/download.md)
