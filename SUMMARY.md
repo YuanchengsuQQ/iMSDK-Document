@@ -15,7 +15,7 @@
    * [3.3 快速集成指南](iOS/quickstart.md)
 * [4. Unity开发指引](Unity/README.md)
    * [4.1 下载及使用](Unity/download.md)
-   * [4.2 设置开发环境](Unity/setupenv.md)
+   * [4.2 配置开发环境](Unity/setupenv.md)
    * [4.3 快速集成指南](Unity/quickstart.md)
    * [4.4 功能模块](Unity/Module/README.md)
        * [4.4.1 登录模块(Login)](Unity/Module/login.md)
