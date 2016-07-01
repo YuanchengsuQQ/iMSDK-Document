@@ -43,7 +43,7 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
   -rw-r--r--  1 AeonYang  staff  1285  6 30 10:45 iMSDKServer.cer
   ```
 
-  > 注意：sdkapi-beta.itop.qq.com为iMSDK测试服务器，游戏需要根据自己的真是服务器地址进行修改
+  > 注意：sdkapi-beta.itop.qq.com为iMSDK测试服务器，游戏需要根据自己的真实服务器地址进行修改
 
 2. 浏览器导出
 
