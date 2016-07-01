@@ -37,8 +37,17 @@
 
 ## 联系我们
 
+在接入过程当中遇到任何问题，请联系我们的技术人员
 
+| 业务 | 联系人 |
+| -- | -- |
+| 业务接入 | [kerenwang](kerenwang@tencent.com) |
+| Android SDK | [aeonyang](aeonyang@tencent.com) |
+| iOS | [brightwan](brightwan@tencent.com) |
+| Unity | [aeonyang](aeonyang@tencent.com) |
+| 服务器 | [hirryli](hirryli@tencent.com) |
 
+[更多问题联系方式](Pre/contact.d)
 
 
 
