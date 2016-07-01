@@ -4,12 +4,12 @@
 
 请进入iTop官网业务下载界面：[https://open.itop.qq.com/download](https://open.itop.qq.com/download)，选择游戏需要的SDK进行下载
 
-## 环境依赖
+### 环境依赖
 
 1. Unity >= 4.6，下载地址：[https://store.unity.com/cn](https://store.unity.com/cn)
 2. Python，下载地址：[https://www.python.org](https://www.python.org)
 
-## 打包方法
+### 打包方法
 
 1. 解压下载后的zip包，进入iMSDK_Android_V?/iMSDK_Unity3D_V?.?.?目录
 
