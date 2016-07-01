@@ -121,7 +121,7 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
 ### 下一步
 
 1. [完成渠道配置](Channel/README.md)
-2. [编写代码](quickstart.md)
+2. [快速](quickstart.md)
  
 ## iOS工程配置
   
