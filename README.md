@@ -1,4 +1,3 @@
-
 # iMSDK 开发指引文档
 
 ## 简介
@@ -47,7 +46,7 @@
 | Unity | [aeonyang](aeonyang@tencent.com) |
 | 服务器 | [hirryli](hirryli@tencent.com) |
 
-[更多问题联系方式](Pre/contact.d)
+[更多问题联系方式](Pre/contact.md)
 
 
 
