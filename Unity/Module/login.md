@@ -199,6 +199,8 @@ IMSDKApi.Login.StrictLogin(OnStrictLogin);
   ```cs
   IMSDKApi.Login.DeactivatePlayingReport();
   ```
+  
+####
 
 ### 参考
 
