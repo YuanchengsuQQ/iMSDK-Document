@@ -186,7 +186,7 @@ IMSDKApi.Login.StrictLogin(OnStrictLogin);
 2. 上报状态，如“正在玩游戏”
 3. 游戏退出或类似状态，取消上报
 
-## 参考
+### 参考
 
 * 登录返回结构体 <font color=blue>IMLoginResult</font>
 
