@@ -1,10 +1,10 @@
-# 4.2 配置开发环境
+## 4.2 配置开发环境
 
 目前，iMSDK支持Android和iOS两大平台代码调用
 
-## Android工程配置
+### Android工程配置
 
-### HTTPS证书文件
+#### HTTPS证书文件
 
 Unity中的文件路径为：
 
@@ -66,7 +66,7 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
     4. 点击“浏览”选择保存文件路径，并将文件命名为iMSDKServer.cer
 
 
-### 配置基础信息
+#### 配置基础信息
 
   Android工程配置主要是修改Assets/Plugins/AndroidManifest.xml文件
 
@@ -118,16 +118,16 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
     <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="103.7.28.42"/>
       ```
 
-### 下一步
+#### 下一步
 
 1. [完成渠道配置](Channel/README.md)
 2. [快速集成](quickstart.md)
  
-## iOS工程配置
+### iOS工程配置
   
 iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode工程进行配置
 
-### 编译选项
+#### 编译选项
 
   在XCode工程 -> Build Settings -> Linking -> Other Linker Flags 中，添加如下编译选项：
   
@@ -138,7 +138,7 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
   
   如果遇到Bitcode报错（Unity 4.x版本不支持），可以通过在XCode工程 -> Build Settings -> Build Options -> Enable Bitcode 中，将值修改为No
 
-### HTTPS证书文件
+#### HTTPS证书文件
     
   将iMSDKServer.cer证书文件拖到XCode工程中，并在XCode工程 Build Phases -> Copy Bundle Resources中，确认iMSDKServer.cer文件已经添加到拷贝列表
     
@@ -147,11 +147,11 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
   ![XCode Https证书](Images/4_2_unity_setupenv_xcode_cer.jpg)
   *iMSDKServer.cer证书文件获取方法可以参考Android HTTPS配置部分说明*
    
-### 添加资源和插件
+#### 添加资源和插件
 
 **请参考iOS文档进行配置**
     
-### 基础代码调用
+#### 基础代码调用
 
 Unity编译导出XCode工程后，需要在工程中添加必要的代码，iMSDK插件才能正常运行
 
@@ -199,7 +199,7 @@ Unity编译导出XCode工程后，需要在工程中添加必要的代码，iMSD
                                                      annotation:annotation];
     ```
   
-### 基础信息配置
+#### 基础信息配置
 
 iOS工程配置主要是修改添加的IMSDKAppSetting.bundle资源文件目录下Contents/Resources/app.plist配置
 
