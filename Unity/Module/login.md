@@ -9,7 +9,7 @@
 
 <font color=red>该类自动绑定在Unity的Tencent.iMSDK.IMLogin（GameObject）上，开发者不要主动销毁该对象！</font>
 
-## 模块使用说明
+### 模块使用说明
 
 该模块主要是用于用户认证，获取用户的基本资料
 
