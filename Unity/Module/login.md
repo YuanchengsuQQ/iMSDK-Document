@@ -270,7 +270,7 @@ IMSDKApi.Login.StrictLogin(OnStrictLogin);
 | public bool IsChannelAppInstalled() | 是否安装渠道应用，只有部分渠道支持 |
 | public bool IsChannelSupportApi() | 应用API版本是否可用，只有部分渠道支持 |
 
-## 代码示例
+### 代码示例
 
 
 ```cs
