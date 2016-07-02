@@ -200,7 +200,28 @@ IMSDKApi.Login.StrictLogin(OnStrictLogin);
   IMSDKApi.Login.DeactivatePlayingReport();
   ```
   
-####
+#### 渠道安装判断说明
+
+目前，只有极少的几个渠道提供了判断渠道是否安装的方法（如微信），使用该接口是需要小心
+
+1. 判断渠道是否安装
+  
+  ```cs
+  if(IMSDKApi.Login.IsChannelSupportApi()) {
+    //TODO
+    Debug.Log("application api level supported");
+  }
+  ```
+  
+2. 判断渠道Api是否支持
+
+  ```cs
+  if(IMSDKApi.Login.IsChannelAppInstalled()) {
+    //TODO
+    Debug.Log("application is installed");
+  }
+  ```
+
 
 ### 参考
 
