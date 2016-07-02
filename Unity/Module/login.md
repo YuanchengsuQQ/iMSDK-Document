@@ -289,10 +289,13 @@ IMSDKApi.Login.StrictLogin(OnStrictLogin);
 
 ```cs
 void Start() {
+    // 我们建议在游戏开始时就初始化登陆方法
     IMSDKApi.Login.Initialize ();
+    // 设定渠道可以根据自己的需要，在调用登录方法之前调用
     IMSDKApi.Login.SetChannel("Facebook");
 }
 
+// 登录回调函数，处理登陆结果
 void TestLoginCallback(IMLoginResult result) {
     if(result.RetCode == 1) {
         Debug.Log("login ok, user open id is " + result.OpenId);
@@ -303,9 +306,10 @@ void TestLoginCallback(IMLoginResult result) {
 }
 
 void TestLogin() {
+    // 设定登陆需要的权限，部分没有权限控制的，渠道填空的List即可
     List<string> permissionList = new List<string>();
     permissionList.Add("email");
-
+    // 调动登陆方法
     IMSDKApi.Login.Login(TestLoginCallback, permissionList, true);
 }
 ```
