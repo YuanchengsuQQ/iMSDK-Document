@@ -157,7 +157,7 @@ IMSDKApi.Login.QuckLogin(OnQuickLogin);
 ```cs
 IMSDKApi.Login.SetChannel("Garena");
 IMSDKApi.Login.SetLoginType("GRN_FB");
-IMSDKApi.Login.Login(OnGaranaFacebookLogin);
+IMSDKApi.Login.Login(OnGarenaFacebookLogin);
 ```
 
 子渠道可以在“渠道使用说明”章节中找到
