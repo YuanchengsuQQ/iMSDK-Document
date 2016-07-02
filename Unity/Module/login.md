@@ -81,7 +81,7 @@ IMSDKApi.Login.SetChannel("WeChat");
 IMSDKApi.Login.Logout();
 ```
 
-### 绑定功能说明
+#### 绑定功能说明
 
 iMSDK提供了一套账号绑定机制，可以实现不同渠道的账号关联。
 
