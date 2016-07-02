@@ -1,16 +1,11 @@
-# 4.4.1 登录模块(Login)
+## 4.4.1 登录模块(Login)
 
-## 命名空间
+### 基础信息
 
-```cs
-using Tencent.iMSDK
-```
+| 命名空间 | 接口类 |
+| -- | -- |
+| Tencent.iMSDK | IMSDKApi.Login |
 
-## 接口类
-
-```cs
-IMSDKApi.Login
-```
 
 <font color=red>该类自动绑定在Unity的Tencent.iMSDK.IMLogin（GameObject）上，开发者不要主动销毁该对象！</font>
 
