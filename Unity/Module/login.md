@@ -183,8 +183,22 @@ IMSDKApi.Login.StrictLogin(OnStrictLogin);
 
 调用逻辑：
 1. 设定上报渠道
+
+  ```cs
+  IMSDKApi.Login.SetPlayingReportChannel(CHANNEL);
+  ```
+
 2. 上报状态，如“正在玩游戏”
+
+  ```cs
+  IMSDKApi.Login.ActivatePlayingReport();
+  ```
+  
 3. 游戏退出或类似状态，取消上报
+
+  ```cs
+  IMSDKApi.Login.DeactivatePlayingReport();
+  ```
 
 ### 参考
 
