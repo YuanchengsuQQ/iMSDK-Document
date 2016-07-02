@@ -162,7 +162,7 @@ IMSDKApi.Login.Login(OnGaranaFacebookLogin);
 
 子渠道可以在“渠道使用说明”章节中找到
 
-### 严格登录说明
+#### 严格登录说明
 
 严格登录(StrictLogin)是指，只有注册或者绑定用户才能登录成功，该功能可以实现登录是依附于一个基础账号的需求。
 
