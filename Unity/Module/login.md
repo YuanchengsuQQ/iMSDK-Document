@@ -309,7 +309,6 @@ IMSDKApi.Login.StrictLogin(OnStrictLogin);
 
 ### 代码示例
 
-
 ```cs
 void Start() {
     // 我们建议在游戏开始时就初始化登陆方法
