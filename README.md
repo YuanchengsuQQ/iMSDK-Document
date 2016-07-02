@@ -13,7 +13,7 @@
 
    iMSDK 是海外版本的MSDK，是由众多插件（Plugin）组成。可以通过点击[iMSDK基础](Pre/setup.md)来了解接入iMSDK的必要知识准备，也可以点击[iMSDK系统架构](Pre/arch.md)来深入了解技术框架
     
-2. 申请iMSDK Game ID
+2. 申请 iMSDK Game ID
    
    进入iTop官网业务接入页面：[https://open.itop.qq.com/app/first](https://open.itop.qq.com/app/first/)，填写相关信息并等待iMSDK结果通知
    
