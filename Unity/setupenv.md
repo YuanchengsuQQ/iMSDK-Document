@@ -5,7 +5,6 @@
 1. [Android工程配置](android.md)
 2. [iOS 工程配置](ios.md)
 
-### Android工程配置
 
 #### HTTPS证书文件
 
