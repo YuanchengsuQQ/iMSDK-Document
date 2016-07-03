@@ -9,7 +9,7 @@ iOS的所有配置，都需要在Unity中编译导出XCode工程后，在XCode�
   ```sh
   -all_load
   ```
-  ![XCode配置编译选项](Images/4_2_unity_setupenv_xcode_all_load.jpg)
+  ![XCode配置编译选项](../Images/4_2_unity_setupenv_xcode_all_load.jpg)
   
   如果遇到Bitcode报错（Unity 4.x版本不支持），可以通过在XCode工程 -> Build Settings -> Build Options -> Enable Bitcode 中，将值修改为No
 
