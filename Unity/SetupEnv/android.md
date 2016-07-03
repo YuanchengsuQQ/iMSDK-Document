@@ -56,7 +56,7 @@
     <meta-data android:name="com.tencent.imsdk.SdkServer" android:value="103.7.28.42"/>
       ```
 
-#### 下一步
+### 下一步
 
 1. [完成渠道配置](Channel/README.md)
 2. [快速集成](quickstart.md)
