@@ -12,6 +12,9 @@ Assets/Plugins/Android/assets/iMSDKServer.cer
   
 iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书文件。
 
+如需要获取证书证书，请点击[HTTPS](../../Help/httpscertfile.md)查看具体方法
+
+
 ### 配置基础信息
 
   Android工程配置主要是修改Assets/Plugins/AndroidManifest.xml文件
