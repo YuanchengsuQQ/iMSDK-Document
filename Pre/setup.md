@@ -33,7 +33,7 @@
 ** 需要注意的是，我们并不是全平台支持，目前iMSDK只支持Android、iOS两大移动平台**
 
 | 平台 | 语言 | 备注 |
-| -- | -- | -- |
+| :-- | :-- | :-- |
 | [Android](Android/README.md) | Java | - |
 | [iOS](iOS/README.md) | C++(C98、C11) | - |
 | [Unity](Unity/README.md) | C# | 只支持Android、iOS手机平台 |
