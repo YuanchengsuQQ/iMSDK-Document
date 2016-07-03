@@ -1,5 +1,17 @@
 ## 4.2.1 Android 环境配置
 
+#### HTTPS证书文件
+
+Unity中的文件路径为：
+
+```sh
+Assets/Plugins/Android/assets/iMSDKServer.cer
+```
+
+![HTTPS证书位置](../Images/4_2_unity_setupenv_cer.jpg)
+  
+iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书文件。
+
 ### 配置基础信息
 
   Android工程配置主要是修改Assets/Plugins/AndroidManifest.xml文件
