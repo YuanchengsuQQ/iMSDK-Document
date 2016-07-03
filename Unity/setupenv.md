@@ -82,6 +82,10 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
 
     将value值修改为对应的游戏ID。注意，前面的"\\"和空格须保留
 
+  * Keystore SHA1指纹配置
+  
+    iMSDK 会通过应用的签名信息进行App的身份验证，请在向iMSDK申请游戏应用时，提供正确的SHA1值，或者[联系我们](../../Pre/contact.md)进行确认！
+
   * iMSDK 服务器地址配置
 
     在AndroidManifest.xml中找到配置项：
