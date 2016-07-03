@@ -55,7 +55,6 @@ iMSDK插件包在提供的时候，已经提供了测试环境下的HTTPS证书�
   ```html
   https://sdkapi-beta.itop.qq.com
   ```
-
   
   * Mac系统，点击Safari导航栏中的锁形图标，点击“显示证书”，点击弹窗下方证书图标进行拖拽到桌面或者文件夹中即可复制文件，将文件重名名为iMSDKServer.cer即可
   
