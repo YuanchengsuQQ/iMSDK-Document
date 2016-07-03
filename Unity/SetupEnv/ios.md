@@ -132,5 +132,5 @@ iOS工程配置主要是修改添加的IMSDKAppSetting.bundle资源文件目录�
     ```
  #### 下一步
  
- 1. [完成渠道配置](Channel/README.md)
- 2. [快速集成](quickstart.md)
+ 1. [完成渠道配置](../Channel/README.md)
+ 2. [快速集成](../quickstart.md)
