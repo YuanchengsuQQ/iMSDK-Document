@@ -19,6 +19,9 @@
   * Keystore SHA1指纹配置
   
     iMSDK 会通过应用的签名信息进行App的身份验证，请在向iMSDK申请游戏应用时，提供正确的SHA1值，或者[联系我们](../../Pre/contact.md)进行确认！
+    
+    获取Keytore SHA1 命令行指令如下：
+    
 
   * iMSDK 服务器地址配置
 
