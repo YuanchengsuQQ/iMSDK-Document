@@ -16,5 +16,5 @@
 
 | 渠道 | 特殊配置说明 |
 | : -- | :-- |
-| [Zalo](Channel/zalo.md) | 抢占程序入口Activity |
-| [Kakao](Channel/kakao.md) | 抢占程序入口Application |
+| [Zalo](zalo.md) | 抢占程序入口Activity |
+| [Kakao](kakao.md) | 抢占程序入口Application |
