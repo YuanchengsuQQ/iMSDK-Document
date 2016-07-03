@@ -31,7 +31,7 @@
 
 5. 双击生成的文件unitypackage，导入Unity工程即可
 
-> 如果打包过程中遇到任何问题，请联系RTX：yuanchengsu
+> 如果打包过程中遇到任何问题，请[联系我们](../../Pre/contact.md)
 
 ### 插件导入
 
