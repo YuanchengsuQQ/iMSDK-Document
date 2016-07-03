@@ -12,6 +12,6 @@
 部分插件在Unity下需要特殊配置
 
 | 渠道 | 特殊配置说明 |
-| : -- | :-- |
+| :-- | :-- |
 | [Kakao](kakao.md) | 抢占程序入口Application |
 | [Zalo](zalo.md) | 抢占程序入口Activity |
