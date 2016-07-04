@@ -44,7 +44,7 @@
 iMSDK按常见的接入功能分成如下常见功能模块：
 
 | 功能 | 支持平台 | 介绍 |
-| -- | -- | -- |
+| :-- | :-- | :-- |
 | 登录 | [Android](Android/Module/Push.md), [iOS](iOS/Module/Push.md), [Unity](Unity/Module/Push.md), [C++](Cpp/Module/Push.md) | 提供授权信息，为游戏登录提供支持 |
 | 分享 | [Android](Android/Module/Push.md), [iOS](iOS/Module/Push.md), [Unity](Unity/Module/Push.md), [C++](Cpp/Module/Push.md) |统一接口调用三方SDK进行分享，如：分享微信朋友圈 |
 | 好友 | [Android](Android/Module/Push.md), [iOS](iOS/Module/Push.md), [Unity](Unity/Module/Push.md), [C++](Cpp/Module/Push.md) |邀请好友，获取好友列表及向好友发送消息等功能 |
